@@ -1,0 +1,11 @@
+[project]
+name = "uv-constraints-txt-direct-dep"
+version = "0.1.0"
+description = "Probe: uv project where constraints.txt pins a DIRECT dep (PRD-8924 / SCA-5154)"
+requires-python = ">=3.11"
+dependencies = [
+    "requests",
+]
+
+[tool.uv]
+package = false
